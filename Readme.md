@@ -12,7 +12,11 @@
 
 - 아직 배우는 초보자지만, 데이터베이스에서 다루는 데이터 규모가 커질수록 데이터베이스의 설계 부분에 대한 고민이 많이 담겨야한다는 글들을 종종 목격한다. 단순히 쿼리를 보내서 결과 값을 받는 것 이상으로 데이터베이스를 다루는 일은 꽤 가치가 있는 일인 것 같다.
 
+- 아마 이 Udemy Course에서는 쿼리를 어떻게 조합해서 사용할지에 대해 능숙하게 배우는 것이 목표가 될 것이다.
+
 - 평생학습이 필요하다는 말이 제일 어울리는 직군이 개발자가 아닐까 싶다.
+
+- Slides : [Getting Started with MySQL](http://webdev.slides.com/coltsteele/mysql-97-98#/0/0/0)
 
 ## SQL 학습하면서 기록할 때, 유의사항
 
@@ -48,7 +52,7 @@
 
 - `SELECT database();` : 현재 사용 중인 데이터베이스 조회하기
 
-- `CREATE TABLE <DATABASE NAME>` : 데이터베이스 테이블 선택하기
+- `CREATE TABLE <DATABASE NAME> (colum name1, colum name2, ...)` : 데이터베이스 테이블 선택하기
 
 - `SHOW TABLES;` : 현재 사용 중인 데이터베이스의 테이블을 확인이 가능하다.
 
@@ -56,4 +60,10 @@
 
 - `INSERT INTO <TABLE NAME>(colum name, colum name) VALUES ("value1", value2), ("value1", value2), ("value1", value2);` : 테이블에 데이터 삽입하기
 
+- `CREATE TABLE cats2 (name VARCHAR(100) NOT NULL, age INT NOT NULL);` : 값을 null (비워진 값)으로 둘 수 없다.
+
+- `CREATE TABLE cats3 (name VARCHAR(100) DEFAULT 'unnamed', age INT DEFAULT 99);` : DEFAULT 값을 설정하기
+
 - `SELECT * FROM <COLUM NAME>` : 선택한 칼럼 값에 있는 모든 내용물을 가져올 수 있는 명령어다.
+
+- `SHOW WARNINGS;` : 저장한 데이터와 관련해 사용자에게 경고문 또는 에러 등에 대한 메세지를 볼 수 있게 지원해준다.
