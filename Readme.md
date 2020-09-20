@@ -34,6 +34,20 @@
 
 - 일반적인 웹이나 모바일 개발자보다 데이터베이스 쪽으로 개발 커리어를 잡는 게 미래를 생각하면 더 나을지도? (데이터를 가공하는 직군은 시간이 지날 수록 수요는 더 커질 것이니)
 
+## 파트별 학습 내용 정리
+
+- [MySQL 8.0 Reference Manual](https://dev.mysql.com/doc/refman/8.0/en/) : 명령어, 메소드에 대한 내용들이 공식 문서로 정리되어 있다.
+
+- [MySQL CRUD](./udemy/01_command.md) : SQL의 기본인 CRUD를 다룸
+
+- [Using SQL Files in Cloud](./udemy/02_command.md) : 간단하지만 클라우드에서 sql파일을 생성해서 사용할 경우, 관련 설정에 대한 내용을 설명
+
+- [SQL Function](./udemy/03_command.md) : 주로 문자열 함수에 관련한 메소드들을 설명
+
+- [Aggregate Function](./udemy/04_command.md) : 쿼리를 던질 때 필요한 여러가지 산술 연산 메소드 및 그룹화에 대한 개념 설명. Group By가 어려웠으나, 개념을 숙지하고 다시 SQL 쿼리를 보내보니, 이해하지 못할 내용은 아니었다.
+
+- [Revisiting Data Types](./udemy/05_command.md) : MySQL에서 자료형을 좀 더 풍부하게 사용할 수 있는 개념들을 설명. 특히 DATE와 관련한 함수와 자료형에 대한 풍부한 설명이 추가되어 있다.
+
 ## 학습 후기
 
 - Udemy에서 들어본 강의 중에 상당히 명강의가 아닌가 싶다. 감탄하면서 온라인 강의를 듣기는 처음인 것 같다.

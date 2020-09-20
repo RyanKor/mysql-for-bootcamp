@@ -26,6 +26,8 @@ SELECT COUNT(*) FROM books WHERE title LIKE '%the%';
 
 - `SELECT title, author_lname FROM books GROUP BY author_lname;`: 특정 칼럼을 그룹화해서 값을 조회하게끔 도와주는 명령어다
 
+- `Group By` 쿼리는 일종의 카테고리화다. 특정 칼럼을 기준으로 연관된 쿼리를 조회할 수 있게 도와주는 값이다.
+
 예시) Group By
 
 ```sql
