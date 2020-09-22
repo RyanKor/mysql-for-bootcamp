@@ -48,6 +48,8 @@
 
 - [Revisiting Data Types](./udemy/05_command.md) : MySQL에서 자료형을 좀 더 풍부하게 사용할 수 있는 개념들을 설명. 특히 DATE와 관련한 함수와 자료형에 대한 풍부한 설명이 추가되어 있다.
 
+- [Logical Operator](./udemy/06_command.md) : MongoDB의 논리 연산자와 내용이 겹치는 부분이 많아서 빨리감기로 강의를 후딱 넘어갔던 부분이다.
+
 ## 학습 후기
 
 - Udemy에서 들어본 강의 중에 상당히 명강의가 아닌가 싶다. 감탄하면서 온라인 강의를 듣기는 처음인 것 같다.
